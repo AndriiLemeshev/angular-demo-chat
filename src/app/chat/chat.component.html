@@ -1,0 +1,17 @@
+<main role="main" class="main container" #logContainer>
+  <div *ngFor="let message of log"
+    class="card my-1 text-white"
+    [ngClass]="{'bg-success': message.username == username, 'bg-info': message.username != username}">
+    <div class="card-body">
+      <strong>{{message.username}} ({{message.timestamp | date:'y-MM-dd HH:mm:ss'}})</strong>
+      <p class="card-text">{{message.text}}</p>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <textarea class="text-muted" placeholder="Write message..."
+              [(ngModel)]="message" (keydown.control.enter)="send()"></textarea>
+  </div>
+</footer>

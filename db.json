@@ -1,0 +1,100 @@
+{
+  "chat": [
+    {
+      "username": "user1",
+      "timestamp": 1544558627599,
+      "text": "Hi All!",
+      "id": 1
+    },
+    {
+      "username": "user2",
+      "timestamp": 1544558640453,
+      "text": "Hi First",
+      "id": 2
+    },
+    {
+      "username": "user1",
+      "timestamp": 1544558650401,
+      "text": "How do you do?",
+      "id": 3
+    },
+    {
+      "username": "user2",
+      "timestamp": 1544558668934,
+      "text": "I'm fine. Thx. And you?",
+      "id": 4
+    },
+    {
+      "username": "user1",
+      "timestamp": 1544558896023,
+      "text": "I bought big pizza!",
+      "id": 5
+    },
+    {
+      "username": "user1",
+      "timestamp": 1544558941474,
+      "text": "I'm happy)",
+      "id": 6
+    },
+    {
+      "username": "user2",
+      "timestamp": 1544558964940,
+      "text": "Sounds good!)",
+      "id": 7
+    },
+    {
+      "username": "user1",
+      "timestamp": 1544558998503,
+      "text": "La-la-la-...",
+      "id": 8
+    },
+    {
+      "username": "user2",
+      "timestamp": 1545171522509,
+      "text": "Today is 18 Dec of 2018",
+      "id": 9
+    },
+    {
+      "username": "user1",
+      "timestamp": 1545171547667,
+      "text": "Good",
+      "id": 10
+    },
+    {
+      "username": "user1",
+      "timestamp": 1545173165464,
+      "text": ":-P",
+      "id": 11
+    },
+    {
+      "username": "user2",
+      "timestamp": 1545173913678,
+      "text": ";-)",
+      "id": 12
+    },
+    {
+      "username": "user1",
+      "timestamp": 1545173923490,
+      "text": "0/",
+      "id": 13
+    },
+    {
+      "username": "user1",
+      "timestamp": 1545176606693,
+      "text": "!!!",
+      "id": 14
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "user1",
+      "password": "user1"
+    },
+    {
+      "id": 2,
+      "name": "user2",
+      "password": "user2"
+    }
+  ]
+}
